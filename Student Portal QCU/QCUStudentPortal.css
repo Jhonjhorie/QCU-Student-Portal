@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;800&display=swap');*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.Login{
+    background: url(/Css/loginBackground.png.crdownload) no-repeat center ;
+    background-size: cover;
+    height: 100vh;
+}
+.Login .header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem 2rem 3.5rem;
+    font-weight: 1000;
+    font-size:xx-large;
+    color:rgb(232, 143, 0);
+    font-family:'Gothic';
+}
+.Login .header img{
+    height: 60px;
+    margin-right: 5px;
+}
+.Login .welcome{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+    padding-top: 2rem;
+    flex-direction: column;
+}
+.Login .welcome .first{
+    font-size: 75px;
+    font-weight: 800;
+    color: rgba(51,51,59);
+
+}
+.Login .welcome .sec{
+    font-size: 25px;
+    font-weight: 400;
+    color: whitesmoke;
+
+}
+.Login .container{
+    display: flex;   
+    justify-content: center;     
+    width: 100%;
+    align-items: center;
+}
+.Login .container img{
+    display: flex;
+    flex-direction: column;
+
+}
+.Login .container .imgs{
+    width: 100%;
+    height: auto;
+}
+.Login .container{
+
+}
+.Login .container .imgt{
+    padding-left: 18px;
+    width: 100%;
+    height: auto;
+}
+.Login .container button{
+    background-color:rgb(253, 197, 80);
+    padding: 10px 53px;
+    margin-left: 2rem;
+    border-radius: 15px;
+}
